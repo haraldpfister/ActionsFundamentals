@@ -1,4 +1,4 @@
-name: Github Actsion Demo
+name: Github Action Demo
 on: 
   push:
     branches: [main]
@@ -16,7 +16,7 @@ jobs:
       - run: |
           echo "triggered by ${{ github.event_name }}"
           echo "branch is ${{ github.ref }}"
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@v3.3.0
 
       - name: Files in repo
         run: |
