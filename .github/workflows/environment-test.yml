@@ -1,4 +1,4 @@
-name: Github Action Demo
+name: Github Action Demo with environment
 on: 
   push:
     branches: [main]
